@@ -1,0 +1,401 @@
+/* --------------Header--------------- */
+.nav {
+    position: sticky;
+}
+
+.nav-bar-nav {
+    height: 90px;
+    /* width: auto; */
+    background-color: #E5E4E2;
+    margin: -7px;
+    margin-left: 1px;
+}
+
+.logo {
+    margin: 20px;
+    font-weight: 600;
+    color: #36454F;
+}
+
+.nav-bar {
+    margin-left: 205px;
+
+}
+
+.btn button {
+    margin-left: 400px;
+}
+
+/* ------------Hero------------- */
+
+.img img {
+    margin-left: -74px;
+    height: 608px;
+    width: 1264px;
+}
+
+.txt-1 {
+    margin-top: 192px;
+    position: absolute;
+    margin-left: 288px;
+    color: white;
+    font-weight: 900;
+}
+
+.text-box p {
+    margin-top: 268px;
+    position: absolute;
+    margin-left: 247px;
+    color: white;
+}
+
+/* ---------------Ressorts------------ */
+.ressort-sec {
+    margin: 10px;
+}
+
+.column-10 {
+    background-color: #E5E4E2;
+
+}
+
+.img-1 img {
+    height: 300px;
+    width: 342px;
+    margin: 10px;
+}
+
+.txt-2 {
+    text-align: center;
+    margin: -12px;
+    color: #36454F;
+    margin-right: 20px;
+}
+
+.txt-box p {
+    /* margin-left: 300px; */
+    text-align: center;
+    color: #36454F;
+    font-weight: 700;
+}
+
+.txt-box-2 p {
+    text-align: center;
+    color: #36454F;
+    font-weight: 500;
+}
+
+.ressort-sec-3 {
+    margin: 10px;
+}
+
+.button-sec {
+    margin: 10px;
+}
+
+.btn-2 {
+    margin: 10px;
+    margin-left: 47px;
+}
+
+.btn-3 {
+    margin: 10px;
+}
+
+.ressort-sec h1 {
+    color: #36454F;
+}
+
+/* -------------------Subscribe------------- */
+.subscribe-sec {
+    background-color: #E5E4E2;
+    width: 1140px;
+    margin-left: 62px;
+    padding: 10px;
+}
+
+.subscribe input {
+    width: 500px;
+    margin: 10px;
+}
+
+.subscribe label {
+    font-weight: 600;
+    font-size: 40px;
+    color: #36454F;
+    margin: 10px;
+}
+
+.email-sec {
+    margin: -55px;
+    background-color: #F4BB44;
+    position: absolute;
+    margin-left: 1005px;
+    border-radius: 5px;
+    width: 100px;
+    /* padding: px; */
+    text-align: center;
+}
+
+/* ------------------Footer----------------- */
+.footer-sec {
+    background-color: #E5E4E2;
+}
+
+.txt-5 p h3 {
+    color: #36454F;
+}
+
+.txt-6 {
+    margin-left: 279px;
+}
+
+/* -------------BOOKING----------------- */
+.booking-sec {
+    background-color: #E5E4E2;
+    padding: 80px;
+    margin: 30px;
+}
+
+.check {
+    margin: 10px;
+    border: transparent;
+}
+
+/* ------------ROOM------------- */
+.room-sec {
+    height: 400px;
+    width: 1205px;
+    margin-left: 29px;
+    position: absolute;
+    /* background-color: #36454F; */
+    color: #36454F;
+}
+
+.color1 {
+    background-color: #E5E4E2;
+}
+
+.column {
+    /* width: 300px; */
+    margin-left: 300px;
+    position: absolute;
+
+}
+
+.column-1 {
+    width: 474px;
+    margin-left: 304px;
+}
+
+.column-2 {
+    width: 474px;
+    margin-left: 304px;
+}
+
+.text-txt {
+    /* margin: 148px; */
+    color: #36454F;
+}
+
+/* -----------Sucessfullu------------- */
+body {
+    height: 100vh;
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Khand', sans-serif;
+}
+
+.wrapperAlert {
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 12px;
+    border: thin solid #ddd;
+}
+
+.topHalf {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    min-height: 250px;
+    position: relative;
+    padding: 40px 0;
+    background: rgb(0, 0, 0);
+    background: -webkit-linear-gradient(45deg, #019871, #a0ebcf);
+}
+
+.topHalf p {
+    margin-bottom: 30px;
+}
+
+svg {
+    fill: white;
+}
+
+.topHalf h1 {
+    font-size: 2.25rem;
+    display: block;
+    font-weight: 500;
+    letter-spacing: 0.15rem;
+    text-shadow: 0 2px rgba(128, 128, 128, 0.6);
+}
+
+/* Original Author of Bubbles Animation -- https://codepen.io/Lewitje/pen/BNNJjo */
+.bg-bubbles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+li {
+    position: absolute;
+    list-style: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.15);
+    /* fade(green, 75%);*/
+    bottom: -160px;
+
+    -webkit-animation: square 20s infinite;
+    animation: square 20s infinite;
+
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+li:nth-child(1) {
+    left: 10%;
+}
+
+li:nth-child(2) {
+    left: 20%;
+
+    width: 80px;
+    height: 80px;
+
+    animation-delay: 2s;
+    animation-duration: 17s;
+}
+
+li:nth-child(3) {
+    left: 25%;
+    animation-delay: 4s;
+}
+
+li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+
+    animation-duration: 22s;
+
+    background-color: rgba(white, 0.3);
+    /* fade(white, 25%); */
+}
+
+li:nth-child(5) {
+    left: 70%;
+}
+
+li:nth-child(6) {
+    left: 80%;
+    width: 120px;
+    height: 120px;
+
+    animation-delay: 3s;
+    background-color: rgba(white, 0.2);
+    /* fade(white, 20%); */
+}
+
+li:nth-child(7) {
+    left: 32%;
+    width: 160px;
+    height: 160px;
+
+    animation-delay: 7s;
+}
+
+li:nth-child(8) {
+    left: 55%;
+    width: 20px;
+    height: 20px;
+
+    animation-delay: 15s;
+    animation-duration: 40s;
+}
+
+li:nth-child(9) {
+    left: 25%;
+    width: 10px;
+    height: 10px;
+
+    animation-delay: 2s;
+    animation-duration: 40s;
+    background-color: rgba(white, 0.3);
+    /*fade(white, 30%);*/
+}
+
+li:nth-child(10) {
+    left: 90%;
+    width: 160px;
+    height: 160px;
+
+    animation-delay: 11s;
+}
+
+@-webkit-keyframes square {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-500px) rotate(600deg);
+    }
+}
+
+@keyframes square {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-500px) rotate(600deg);
+    }
+}
+
+.bottomHalf {
+    align-items: center;
+    padding: 35px;
+}
+
+.bottomHalf p {
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 18px;
+    background-color: #019871;
+    text-shadow: 0 1px rgba(128, 128, 128, 0.75);
+}
+
+button:hover {
+    background-color: #85ddbf;
+}
+
+.error {
+    color: red;
+}
